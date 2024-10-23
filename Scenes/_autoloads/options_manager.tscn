@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgbd1660ewc88"]
+
+[ext_resource type="Script" path="res://Scripts/AutoLoads/options_manager.gd" id="1_nrkg8"]
+
+[node name="options_manager" type="Node"]
+script = ExtResource("1_nrkg8")

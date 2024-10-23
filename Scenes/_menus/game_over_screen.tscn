@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://vhn5cnsocr2j"]
+[gd_scene load_steps=2 format=3 uid="uid://vhn5cnsocr2j"]
+
+[ext_resource type="Texture2D" uid="uid://cfrxepx1hsnk7" path="res://Images/lose.png" id="1_ngxhe"]
 
 [node name="GameOverScreen" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(966, 547)
+scale = Vector2(1.52698, 1.59238)
+texture = ExtResource("1_ngxhe")
